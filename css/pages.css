@@ -1,0 +1,48 @@
+/* static page CSS */
+
+.project_box{float:left;clear:both;width:96%;padding:2%;background:url('../images/template/overlay_1.png') repeat;border:1px solid #000000;color:#EFEFEF;}
+.project_box_clear1{float:left;clear:both;width:96%;padding:2%;color:#EFEFEF;background:url('../images/template/horz_fade_2.png') repeat-y;
+					background-color:#111111;border:6px solid #111;border-left:6px solid #222;border-top:5px solid #222;}
+.project_box_beige{float:left;clear:both;width:96%;padding:2%;color:#000000;background:url('../images/template/proj_bg_gold.png') center repeat;
+					border:2px solid #2A1607;border-left:2px solid #2A1607;border-top:2px solid #2A1607;border-radius:10px;}
+.project_box_green{float:left;clear:both;width:96%;padding:2%;color:#FFFFFF;background:url('../images/template/proj_bg_green.png') center 0 repeat;background-color:#000;}
+
+.project_title{color:#B7CEC0;}
+.project_text{float:left;width:75%;}
+
+
+/* mobile projects */
+.app_box{float:left;width:100%;margin-top:10px;}
+.app_image{float:left;clear:both;width:200px;height:200px;margin-right:20px;}
+.app_fadebox{float:left;width:735px;min-height:250px;padding:20px;background:url('../images/template/overlay_1.png') repeat;border:1px solid #000000;color:#EFEFEF;}
+
+/* web projects */
+.project_groovecard{float:left;clear:both;width:180px;border-radius:20px;}
+.project_groovecard a{display:block;width:150px;height:150px;background:url('../images/projects/groovecard.jpg') no-repeat;border-radius: 12px;}
+.project_groovecard a:hover{cursor:pointer;background-position:0 -150px;}
+
+.project_sammy{float:left;clear:both;width:180px;border-radius:20px;}
+.project_sammy a{display:block;width:150px;height:150px;background:url('../images/projects/sammyandnat.jpg') no-repeat;border-radius: 12px;}
+.project_sammy a:hover{cursor:pointer;background-position:0 -150px;}
+
+.project_coocooweb{float:left;clear:both;width:180px;border-radius:20px;}
+.project_coocooweb a{display:block;width:150px;height:150px;background:url('../images/projects/coocoo.jpg') no-repeat;border-radius: 12px;}
+.project_coocooweb a:hover{cursor:pointer;background-position:0 -150px;}
+
+.project_albanytakeout{float:left;clear:both;width:180px;border-radius:20px;}
+.project_albanytakeout a{display:block;width:150px;height:150px;background:url('../images/projects/albanytakeout.jpg') no-repeat;border-radius: 12px;}
+.project_albanytakeout a:hover{cursor:pointer;background-position:0 -150px;}
+
+.project_wsd{float:left;clear:both;width:180px;border-radius:20px;}
+.project_wsd a{display:block;width:150px;height:150px;background:url('../images/projects/wsdgsf.jpg') no-repeat;border-radius: 12px;}
+.project_wsd a:hover{cursor:pointer;background-position:0 -150px;}
+
+/* contact us form */
+.contact_form_tbl{border-collapse:collapse;width:98%;margin-top:15px;}
+.contact_form_tbl tr{}
+.contact_form_tbl th{}
+.contact_form_tbl td{padding:6px 5px 8px 5px;}
+.contact_form_tbl input,.contact_form_tbl select,.contact_form_tbl textarea{font-size:15px;padding:2px;color:#000000 !important;}
+
+
+

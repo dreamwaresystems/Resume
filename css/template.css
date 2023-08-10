@@ -1,0 +1,87 @@
+/* 
+	Copyright Dreamware Systems LLC
+	Coded by Mike Jones 
+*/
+
+body {margin: 0 auto;background-color: #000000;font:normal 14px Arial;font-family:Arial;color:#FFFFFF;}
+a{color:#DFEAFB;text-decoration:none;outline:none;}
+a:hover{text-decoration:underline;cursor:pointer;}
+
+input, select, textarea{color:#000000;}
+ul{margin-top:6px;}
+li{margin-left:24px;padding:1px 0 1px 0;}
+
+.clear{clear:both;}
+.clearfix{display:inline-block;height:1%;}
+.clearfix:after{content:"";display:block;clear:both;visibility:hidden;font-size:0;height:0;}
+
+
+/* main containers */
+#outer_wrap{padding:0px;margin:0 auto;width:100%;min-height:500px;background:url('../images/template/bg_blank.png') center 0 no-repeat;}
+#outer_wrap_home{padding:0px;margin:0 auto;width:100%;min-height:500px;background:url('../images/template/background8.png') center 0 no-repeat;
+/*
+ -moz-background-size: 100% 100%;
+ -o-background-size: 100% 100%;
+ -webkit-background-size: 100% 100%;
+ background-size: 100% 100%;*/
+ }
+#content_wrap{margin:0 auto;clear:both;width:75%;min-width:780px;max-width:1000px;z-index:1;}
+
+/* header */ 
+.header_wrap{clear:both;width:100%;margin:0 auto;background-color:rgba(231,231,231,0.2);border-bottom:2px solid #1F253A;}
+.header{clear:both;margin:0 auto;padding-left:1%;width:70%;max-width:900px;min-width:680px;min-height:40px;font:normal 14px Arial;}
+.header a{display:block;float:left;width:13%;padding:12px;text-align:center;outline:none;}
+.header a:hover{background-color:rgba(231,231,231,0.2);text-decoration:none;border-bottom:2px solid #6B78A2;color:#FFFFFF;}
+.header_select{background-color:rgba(231,231,231,0.2) !important;border-bottom:2px solid #6B78A2 !important;color:#FFFFFF;}
+
+/* footer */
+#footer{clear:both;min-height:100px;}
+.copyright_text{margin-top:5px;width:100%;text-align:center;font-size:13px;color:#222222;}
+
+/* hompage */
+.home_spacer{clear:both;width:100%;height:260px;padding-bottom:25px;}
+.home_text_left{float:left;width:310px;margin-left:20px;padding-right:10px;color:#FFFFFF;}
+
+/* starlight containers */
+.starlight{width:100%;position:relative;}
+.starlight_home{margin:0 auto;height:240px;width:100%;padding:0;position:relative;}
+
+/* common page sections */
+.large_spacer{width:100%;height:100px;}
+.small_spacer{width:100%;height:50px;}
+
+/* common buttons */
+.green_button a{display:block;float:left;margin-right:20px;height:38px;width:200px;text-align:center;padding-top:12px;font-size:16px;background: url('../images/buttons/greenHome.png') no-repeat;}
+.green_button a:hover{cursor:pointer;background-position: 0 -50px;text-decoration:none;}
+.blue_button a{display:block;float:left;margin-right:20px;height:38px;width:200px;text-align:center;padding-top:12px;font-size:16px;background:url('../images/buttons/blueButton.png') no-repeat;}
+.blue_button a:hover{cursor:pointer;background-position: 0 -50px;text-decoration:none;}
+.gray_btn a{display:block;float:left;margin-right:20px;height:38px;width:200px;text-align:center;padding-top:12px;font-size:16px;background:url('../images/buttons/grayHome.png') no-repeat;}
+.gray_btn a:hover{cursor:pointer;background-position: 0 -50px;text-decoration:none;}
+.darkGrayBtn a{display:block;float:left;margin-right:20px;height:36px;width:200px;text-align:center;padding-top:14px;font-size:16px;background:url('../images/buttons/darkGrayHome.png') no-repeat;}
+.darkGrayBtn a:hover{cursor:pointer;background-position: 0 -51px;text-decoration:none;}
+.gray_overlay_btn a{display:block;float:left;margin-right:20px;height:35px;width:200px;text-align:center;padding-top:14px;font-size:16px;background: url('../images/template/overlay_5.png') repeat;margin-top:10px;}
+.gray_overlay_btn a:hover{cursor:pointer;text-decoration:none;background:#2E323E;}
+
+.submit_button{float:right;clear:both;margin-top:10px;border:1px solid #666666 !important;outline:none;background:url('../images/template/button.png') repeat-x;padding:8px !important;}
+.submit_button:hover{cursor:pointer;background:#E7E9F1;}
+.close_button{float:right;margin-right:10px;padding:0px;color:#333333;text-decoration:none;margin-top:10px;}
+.close_button:hover{cursor:pointer;text-decoration:underline;}
+
+/* common message boxes */
+.error_message{margin:5px 0 15px 0;float:left;clear:both;border:1px solid #CE4740;background-color:#FFF6F6;padding:8px;color:#B4140C;font:normal 13px Arial;}
+.success_message{margin:5px 0 15px 0;float:left;clear:both;border:1px solid #3C9348;background-color:#EDF9EF;padding:8px;font:normal 13px Arial;color:#000000;}
+.warning_message{margin:5px 0 15px 0;float:left;clear:both;border:1px solid #F0870C;background-color:#FDF9B2;padding:8px;color:#333333;font:normal 13px Arial;margin-bottom:5px;}
+.notification_message{margin-top:5px;width:95%;float:left;clear:both;border:1px solid #F0870C;background-color:#FDF9B2;padding:8px;color:#333333;font:normal 13px Arial;margin-bottom:5px;}
+.notification_message img{float:left;margin-right:10px;width:20px;height:17px;}
+
+/* shared content layout */
+.page_title{float:left;width:100%;font:bold 22px Calibri;color:#E5E9F8;margin-bottom:10px;}
+
+.general_box_center{clear:both;width:100%;margin:0 auto;margin-bottom:20px;margin-top:20px;}
+.general_box_left{float:left;width:100%;margin-bottom:20px;margin-top:20px;}
+.section_titlebox{float:left;width:100%;padding:0px;margin-top:25px;margin-bottom:5px;font:bold 18px Calibri;color:#5F6792;}
+
+.clearbox{clear:both;width:90%;min-height:20px;padding:4%;padding-top:12px;padding-bottom:12px;}
+.fadebox{clear:both;width:90%;min-height:20px;padding:4%;padding-top:12px;padding-bottom:12px;background:url('../images/template/overlay_1.png') repeat;border:1px solid #000000;}
+.fadebox_dark{clear:both;width:90%;min-height:20px;padding:4%;padding-top:12px;padding-bottom:12px;background:url('../images/template/overlay_1.png') repeat;border:1px solid #000000;}
+

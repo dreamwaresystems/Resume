@@ -1,0 +1,122 @@
+
+/*
+	Michael T. Jones - Resume Site
+	Copyright: Dreamware Systems LLC 2016
+	Author: Mike Jones 
+*/
+
+/* template overrides */
+html {}
+body {margin:0 auto;background-color:#000000;font:normal 14px Arial;font-family:Arial;margin:0;padding:0;background:url('../images/resume/linen3.jpg') center 0 repeat-y;
+ 		-webkit-background-size:100% 100%;background-size:100% 100%;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:underline;cursor:pointer;}
+
+#outer_wrap_resume{padding:0px;margin:0 auto;width:100%;min-height:500px;background:url('../images/resume/linen3.jpg') center 0 repeat-y;
+ 		-webkit-background-size:100% 100%;background-size:100% 100%;}
+#content_wrap_resume{margin:0px;padding:0px;}
+
+.header_wrap{position:fixed;top:0;left:0;width:100%;background:url('../images/resume/toolbar2.jpg') center 0 no-repeat;border-bottom:3px solid #4F3C2E;
+			 border-top:2px solid #CCB293;-webkit-background-size: 100% 100%;background-size: 100% 100%;
+			 box-shadow:0px 5px 20px #000;}
+.header{clear:both;margin:0 auto;width:82%;min-width:750px;max-width:950px;min-height:52px;font:bold 19px Calibri;}
+.header a{display:block;float:left;width:12%;padding:15px 12px 15px 12px;text-align:center;outline:none;color:#312A25;text-shadow:-1px -1px 0 #CBB296;}
+.header a:hover{background-color:rgba(231,231,231,0.2);text-decoration:none;border-bottom:none;color:#FFFFFF;text-shadow:1px 1px 2px #444;}
+.header_select{background-color:rgba(231,231,231,0.2) !important;border-bottom:2px solid #6B78A2 !important;color:#FFFFFF;}
+.header_inactive{display:block;float:left;width:70%;padding:15px 12px 15px 12px;text-align:center;outline:none;color:#312A25;text-shadow:-1px -1px 0 #CBB296;}
+
+/* resume CSS */
+.cv_header{margin:0 auto;clear:both;width:75%;min-width:780px;max-width:1000px;z-index:1;margin-top:70px;}
+.cv_header_left{width:65%;float:left;margin-top:65px;padding-left:12px;}
+.cv_header_left .cvtitle{float:left;clear:both;font:normal 35px Arial, Helvetica, sans-serif;text-shadow:0px 0px 12px #000000;}
+.cv_header_left .cvsubtitle{float:left;clear:both;font:normal 18px Arial, Helvetica, sans-serif;text-shadow:0px 0px 8px #000000;color:#B6CBC8;}
+.cv_header_left .cv_inactive_title{float:left;clear:both;margin-top:20px;font:normal 18px Arial, Helvetica, sans-serif;text-shadow:0px 0px 8px #000000;color:#FFF;}
+.cv_header_left .cv_inactive_message{float:left;clear:both;margin-top:10px;font:normal 14px Arial, Helvetica, sans-serif;text-shadow:0px 0px 8px #000000;color:#FFF;}
+.cv_header_right{width:30%;float:right;}
+
+.cv_download_doc_btn{width:240px;float:left;clear:both;margin:25px 0 0 0;padding:15px 0 15px 35px;background:url('../images/resume/downloadDocBtn.jpg') repeat-x;
+			  box-shadow:0px 2px 22px #000;font:bold 15px Arial;color:#555;border:1px solid #CCC;text-shadow:-0.25px -0.25px 0 #FFF;text-align:center;
+			  border-radius:5px;}
+.cv_download_doc_btn:hover{cursor:pointer;background-position:0 -50px;}
+
+a.linkedinBtn{width:50px;height:50px;float:left;display:block;margin:25px 0 0 10px;background:url('../images/resume/linkedin.png') no-repeat;box-shadow:0px 2px 22px #000;}
+a.linkedinBtn:hover{cursor:pointer;background-position:0 -49px;}
+
+a.cv_github_btn{display:block;width:120px;height:48px;float:left;margin:25px 0 0 10px;background:url('../images/resume/githubBtn.png') repeat-x;box-shadow:0px 2px 22px #000;border:1px solid #CCC;border-radius:5px;}
+a.cv_github_btn:hover{cursor:pointer;background-position:0 -50px;}
+
+.cv_download_zip_btn{width:240px;float:left;clear:both;margin:25px 0 0 0;padding:15px 0 15px 35px;background:url('../images/resume/downloadZipBtn.jpg') repeat-x;
+			  box-shadow:0px 2px 22px #000;font:bold 15px Arial;color:#555;border:1px solid #CCC;text-shadow:-0.25px -0.25px 0 #FFF;text-align:center;
+			  border-radius:5px;}
+.cv_download_zip_btn:hover{cursor:pointer;background-position:0 -50px;}
+
+.cv_section_title{width:90%;background:url('../images/resume/sectiontitle2.jpg') repeat-x;box-shadow:0px 2px 22px #000;font:bold 28px Arial;
+			color:#FFFFFF;text-align:center;margin:0 auto;margin-top:150px;padding:20px 0 20px 0;}
+.cv_section{margin:0 auto;clear:both;width:75%;min-width:780px;max-width:1000px;padding:2%;background:url('../images/resume/bg3.jpg') repeat;
+			font:normal 14px Arial;color:#000000;border:4px solid #70624C;color:#000000;box-shadow:0 0 38px #000000;margin-top:40px;}
+.cv_section_clear{margin:0 auto;clear:both;width:75%;min-width:790px;padding:3%;color:#FFF;margin-top:20px;}
+.cv_inner_title{width:100%;font:bold 16px Arial;color:#000000;text-align:center;}
+
+
+.cv_box{}
+.cv_box h3{font:bold 14px Arial;}
+.cv_box + p{font:bold 15px Arial;text-align:center;}
+.cv_box ul{margin-top:3px;clear:both;}
+.cv_box ul li{margin-left:5px;padding:1px 0 1px 0;font:normal 13px Arial;}
+
+.cv_dates{float:right;margin-right:5%;}
+.cv_dates > li{float:left;list-style-type:none;padding:0px;margin:0px;font:bold 17px Arial;text-shadow:0 1px 12px #000;}
+.cv_dates > li:first-child:after{content:'-';padding:0 6px 0 6px;}
+
+.cv_split_box{margin:0px;padding:0px;display:block;}
+.cv_split_box > h1{text-align:center;font:bold 17px Arial;color:#D1EBE2;}
+
+.cv_skills_group{clear:both;float:left;}
+.cv_skills_group h1{font:bold 18px Arial;}
+.cv_skills_group ul{clear:both;float:left;padding:0px;margin:0 0 12px 10px;}
+.cv_skills_group ul > li{display:inline;padding:0px;margin:0px;font:bold 17px Calibri;color:#B4B9DA;}
+.cv_skills_group ul > li:after{content:' ';padding:0 6px 0 0px;}
+
+.cv_exp_box{width:77%;margin-left:10%;}
+.cv_exp_box > ul{margin-top:8px;margin-bottom:19px;}
+.cv_exp_box > li{font:normal 13px Arial;}
+.cv_exp_topleft{float:left;width:65%;padding-bottom:10px;}
+.cv_exp_datebox{float:right;width:35%;}
+.cv_exp_company{float:left;font-weight:bold;font-size:19px;text-shadow:0 1px 12px #000;color:#FFE5CA;}
+.cv_exp_location{float:left;font-style:italic;font-size:14px;padding:3px 0 0 10px;color:#CCCCCC;}
+.cv_exp_title{clear:both;font:normal 15px Arial;padding-top:2px;text-shadow:0 1px 15px #000;color:#B4B9DA;}
+.cv_exp_dates_dates{float:right;clear:both;padding:6px 0 0 0;font-weight:normal;font-size:14px;text-shadow:0 1px 12px #000;color:#CCC;color:#B4B9DA;}
+.cv_exp_dates_years{float:right;clear:both;padding:6px 0 0 0;font-weight:bold;font-size:16px;text-shadow:0 1px 12px #000;color:#CCC;}
+
+.cv_educ_icon{float:left;width:15%;min-width:160px;}
+.cv_educ_wrap{float:left;width:65%;margin-top:20px;}
+.cv_educ_info{float:left;clear:both;}
+.cv_educ_school{font-weight:bold;font-size:20px;color:#C5B9D7;float:left;text-shadow:0 0 1px #000;margin:4px;}
+.cv_educ_info ul{clear:both;float:left;padding:0px;margin:0 0 12px 10px;}
+.cv_educ_info ul > li{margin:0 0 0 15px;padding:0px;font:normal 13px Arial;color:#EFEBF5;}
+
+.cv_proj_sect_title{clear:both;width:85%;margin:0 auto;margin-top:65px;border-bottom:1px solid #CCCCCC;padding-bottom:14px;font:bold 20px Arial;color:#FFF;text-shadow:0 0 6px #000;}
+.cv_proj_split{width:50%;float:left;}
+.cv_proj_wrap{width:98%;float:left;margin:12px;}
+.cv_proj_thumb{width:34%;float:left;}
+.cv_proj_thumb img{border-radius:10px;box-shadow:0px 2px 22px #000;max-width:100%;height:auto;}
+.cv_proj_thumb img:hover{border-radius:10px;box-shadow:0px 0px 18px #3C5671;cursor:pointer;}
+.cv_proj_text{width:62%;min-height:160px;float:left;margin-left:3%;padding-top:5px;}
+.cv_proj_title{float:left;clear:both;font:bold 19px Arial;color:#AFE5CE;text-shadow:0 0 1px #000;}
+.cv_proj_link a{display:block;float:left;clear:both;color:#D1EBE2;text-decoration:none;}
+.cv_proj_link a:hover{cursor:pointer;text-decoration:underline;color:#FFFFFF;}
+.cv_proj_desc{float:left;clear:both;width:100%;font:normal 13px Arial;color:#FFFFFF;margin-top:8px;}
+.cv_link_segment:after{content:'|';padding:0 4px 0 4px;}
+.cv_link_segment_final{clear:none !important;}
+
+.cv_web_color{color:#AFE5CE;}
+.cv_app_color{color:#D3D1FF;}
+.cv_educ_color{}
+
+.cv_proj_app_wrap{margin-bottom:20px;}
+.cv_proj_app_wrap .cv_proj_title{color:#D3D1FF;}
+.cv_proj_app_wrap .cv_proj_text, .cv_proj_app_wrap .cv_proj_link a{color:#D3D1FF;}
+.cv_proj_app_wrap .cv_proj_link a{margin-top:2px;}
+.cv_proj_app{width:34%;}
+.cv_proj_app img{border-radius:28px !important;}
+
